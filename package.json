@@ -1,0 +1,25 @@
+{
+  "name": "import-example",
+  "version": "1.0.0",
+  "description": "UI Bakery POC import module.",
+  "type": "module",
+  "source": "src/index.js",
+  "exports": "./dist/ubc.modern.js",
+  "main": "./dist/ubc.cjs",
+  "module": "./dist/ubc.module.js",
+  "unpkg": "./dist/ubc.umd.js",
+  "scripts": {
+    "build": "microbundle --jsx React.createElement",
+    "start": "microbundle --jsx React.createElement watch"
+  },
+  "keywords": [],
+  "author": "Akveo <support@akveo.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "microbundle": "^0.13.3"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

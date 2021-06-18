@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>UI Bakery Component Example</title>
+  <meta name="description" content="UI Bakery Component Example">
+  <meta name="author" content="Akveo">
+  <script
+          crossorigin
+          src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+  <script
+          crossorigin
+          src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+  <script src="../dist/ubc.umd.js"></script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script>
+    // const app = React.createElement('div', null, 'Hello World!');
+    const EvComponent = window.UBC.EvComponent;
+    ReactDOM.render(EvComponent(), document.getElementById('root'));
+  </script>
+</body>
+
+</html>
