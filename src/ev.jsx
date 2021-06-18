@@ -1,12 +1,8 @@
 
-const imgPath = typeof process !== 'undefined' && process.env.NODE_ENV === 'production'
-  ? 'https://github.com/blujedis/uib/raw/main/public/evgeny.jpg'
-  : 'evgeny.jpg';
-
 const DEFAULTS = {
-  name: 'Evgeny Lupanov',
-  img: imgPath,
-  email: 'e.lupanov@akveo.com',
+  name: 'Guest User',
+  img: 'https://via.placeholder.com/100',
+  email: 'user@mail.com',
   size: 100
 };
 

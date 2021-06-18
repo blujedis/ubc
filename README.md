@@ -1,6 +1,6 @@
-# UI Bakery Component Library
+# React Component Library
 
-Library showing proof of concept for generating a [React](http://reactjs.org) component library that can then be imported into [UI Bakery](http://uibakery.io)
+Library showing proof of concept for generating a [React](http://reactjs.org) component library that can then be imported into low code tools such as [UI Bakery](http://uibakery.io)
 
 ## How This Repo Works
 
