@@ -1,5 +1,12 @@
 import EvComponent from './ev';
 
-window.UBC = {
+const components = {
+  EvComponent
+};
+
+if (typeof window !== 'undefined')
+  window.UBC = components;
+
+export {
   EvComponent
 };

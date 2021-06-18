@@ -29,7 +29,11 @@ const _imgStyle = {
   objectFit: 'cover'
 };
 
-const EvComponent = (props = { ...DEFAULTS }) => {
+const EvComponent = (props) => {
+  props = {
+    ...DEFAULTS,
+    ...props
+  };
   const { name, img, email, size } = props;
   const wrapperStyle = { ..._wrapperStyle };
   const divStyle = { ..._divStyle };
@@ -48,3 +52,4 @@ const EvComponent = (props = { ...DEFAULTS }) => {
 };
 
 export default EvComponent;
+
